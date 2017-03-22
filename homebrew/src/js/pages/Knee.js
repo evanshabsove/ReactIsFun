@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class Homepage extends React.Component {
+export default class Knee extends React.Component {
 
   render(){
 

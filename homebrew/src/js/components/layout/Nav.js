@@ -22,7 +22,7 @@ export default class Nav extends React.Component {
           <ul class="nav navbar-nav navbar-right">
             <li><Link to="shine">Shine</Link></li>
             <li><Link to="knee">The Knee</Link></li>
-            <li><a href="#">Wobble</a></li>
+            <li><Link to="wobble">Wobble</Link></li>
           </ul>
         </div>
       </nav>

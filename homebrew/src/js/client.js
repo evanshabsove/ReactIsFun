@@ -6,7 +6,7 @@ import Homepage from "./pages/Homepage"
 import Knee from "./pages/Knee"
 import Layout from "./pages/Layout"
 import Shine from "./pages/Shine"
-// import Wobble from "./pages/Wobble"
+import Wobble from "./pages/Wobble"
 
 const app = document.getElementById('app')
 
@@ -16,7 +16,7 @@ ReactDOM.render(
       <IndexRoute component={Homepage}></IndexRoute>
       <Route path="knee" component={Knee}></Route>
       <Route path="shine" component={Shine}></Route>
+      <Route path="wobble" component={Wobble}></Route>
     </Route>
   </Router>
 ,app)
-// <Route path="wobble" component={Wobble}></Route>
