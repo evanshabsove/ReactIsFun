@@ -20,7 +20,7 @@ export default class Nav extends React.Component {
           <Link to="/" class="navbar-brand">Homepage</Link>
           </div>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Shine</a></li>
+            <li><Link to="shine">Shine</Link></li>
             <li><Link to="knee">The Knee</Link></li>
             <li><a href="#">Wobble</a></li>
           </ul>

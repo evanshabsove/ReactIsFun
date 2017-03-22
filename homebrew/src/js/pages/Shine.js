@@ -2,6 +2,7 @@ import React from "react";
 
 export default class Homepage extends React.Component {
 
+
   render(){
 
     const boxStyle = {
@@ -28,30 +29,27 @@ export default class Homepage extends React.Component {
       paddingTop: "5%"
     }
 
-
+    console.log(headerStyle);
     return(
       <div id="box" style={boxStyle}>
         <div class ="container-fluid" style={containerStyle}>
           <div class="row">
             <div class="col-sm-6">
               <div class="title">
-                <h1 style={{...headerStyle,...paddingTop}}>The Knee</h1>
+                <h1 style={{...headerStyle,...paddingTop}}>The Shine</h1>
               </div>
               <div class="ingredients" style={paddingTop}>
-                <h4 style={headerStyle}>- 4lbs of pale malt</h4>
-                <h4 style={headerStyle}>- 1lbs of crystal 40 or 60</h4>
-                <h4 style={headerStyle}>- 1oz of Centenial hops</h4>
-                <h4 style={headerStyle}>- 1oz of Cascade hops</h4>
+                <h4 style={headerStyle}>- 2.5lbs of 2 row malt</h4>
+                <h4 style={headerStyle}>- 1.5lbs of corn grist</h4>
+                <h4 style={headerStyle}>- 3 oz of Saaz Hops</h4>
               </div>
               <div class="text" style={paddingTop}>
                 <p style={textStyle}>
-                  Mash and sparge, add 0.25oz of Cascade hops at start of boil and again at 35. Add 0.5oz of cascade at 20min and again at 5.
+                  Mash and sparge, add all hops at beginning of 60 min boil.
                 </p>
                 <p style={textStyle}>
-                  Cool Immediatly, add a ale type yeast and transfer to roomtemperature area.
-                </p>
-                <p style={textStyle}>
-                  Add rest of Cascade hops during secondary fermentation to dry hop.
+                  Cool Immediatly, add a Pilsner type yeast and transfer to a cool
+                  area (around 4 degrees).
                 </p>
                 <p style={textStyle}>
                   Allow to ferment for about a month. Bottle and serve.
