@@ -1,17 +1,30 @@
 import React from "react";
 
 export default class Homepage extends React.Component {
+
+
   render(){
+
+    const styleHeight = {
+      height: "100%"
+    }
+
+    const carousel = {
+      position: "absolute",
+      height: "100%",
+      top: "0"
+    }
+
     return(
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel" style={carousel}>
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
 
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
+        <div class="carousel-inner" role="listbox" style={styleHeight}>
+          <div class="item active" style={styleHeight}>
             <img src="pictures/the-shine.jpg" alt="Shine"></img>
             <div class="carousel-caption">
               <div>
@@ -21,7 +34,7 @@ export default class Homepage extends React.Component {
             </div>
           </div>
 
-          <div class="item">
+          <div class="item" style={styleHeight}>
             <img src="pictures/the-knee.jpg" alt="The knee"></img>
             <div class="carousel-caption">
               <div>
@@ -30,7 +43,7 @@ export default class Homepage extends React.Component {
               <p>A hoppy full bodied IPA will give a strong punch with every drink.</p>
             </div>
           </div>
-          <div class="item">
+          <div class="item" style={styleHeight}>
             <img src="pictures/kentucky.jpg" alt="Wobble"></img>
             <div class="carousel-caption">
               <div>
