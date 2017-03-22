@@ -17,11 +17,11 @@ export default class Nav extends React.Component {
       <nav class="navbar navbar-default" style={navbar}>
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="../Homepage/index.html">Evan Homebrews</a>
+          <Link to="/" class="navbar-brand">Homepage</Link>
           </div>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Shine</a></li>
-            <li><a href="#">The Knee</a></li>
+            <li><Link to="knee">The Knee</Link></li>
             <li><a href="#">Wobble</a></li>
           </ul>
         </div>
